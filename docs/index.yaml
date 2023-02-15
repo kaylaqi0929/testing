@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   alpine:
   - apiVersion: v1
-    created: "2023-02-15T20:17:34.1234065Z"
+    created: "2023-02-15T21:37:09.3728448Z"
     description: Deploy a basic Alpine Linux pod
     digest: f44f733d69008e86c3989d3b094a5e6151d168921a09eda61c0897472e2f0399
     home: https://k8s.io/helm
@@ -13,7 +13,7 @@ entries:
     - https://kaylaqi0929.github.io/testing/alpine-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2023-02-15T20:17:34.1201298Z"
+    created: "2023-02-15T21:37:09.3728448Z"
     description: Deploy a basic Alpine Linux pod
     digest: 99c76e403d752c84ead610644d4b1c2f2b453a74b921f422b9dcb8a7c8b559cd
     home: https://k8s.io/helm
@@ -24,7 +24,7 @@ entries:
     - https://kaylaqi0929.github.io/testing/alpine-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2023-02-15T20:17:34.1201298Z"
+    created: "2023-02-15T21:37:09.3728448Z"
     description: Deploy a basic Alpine Linux pod
     digest: 515c58e5f79d8b2913a10cb400ebb6fa9c77fe813287afbacf1a0b897cd78727
     home: https://k8s.io/helm
@@ -36,11 +36,22 @@ entries:
     version: 0.1.0
   mink:
   - apiVersion: v1
-    created: "2023-02-15T20:17:34.1234065Z"
+    created: "2023-02-15T21:37:09.3764082Z"
     description: A Helm chart for Kubernetes
     digest: 28e300f4bd90e49efc8c53cb631ea25f817e1e35da4f8131298bf79a06b6ec21
     name: mink
     urls:
     - https://kaylaqi0929.github.io/testing/mink-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-15T20:17:34.1185207Z"
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-02-15T21:37:09.3764082Z"
+    description: A Helm chart for Kubernetes
+    digest: 1d6635a3821da75a4c98ab8e03e9d17cf99811253870221bc418bf98d3958821
+    name: mychart
+    type: application
+    urls:
+    - https://kaylaqi0929.github.io/testing/mychart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-02-15T21:37:09.3728448Z"
