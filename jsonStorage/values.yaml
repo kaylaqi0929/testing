@@ -1,0 +1,43 @@
+
+# Default values for eventBrokerSource.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+name: json-storage
+
+replicaCount: 1
+
+image:
+  repository: artifactory-artifactory.apps.xnkpeyx0.canadacentral.aroapp.io/gitops-local/jsonStorage
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "latest"
+
+imagePullSecrets: artifactory-secret
+
+
+service:
+  type: ClusterIP
+  port: 8080
+  name: 8080-tcp
+
+route:
+  targetPort: 8080-tcp
+  termination: edge
+  kind: Service
+  weight: 100
+
+
+resources: {}
+
+dbConfigSecret: 
+  user: yuriy
+  name: eventdb
+  password: 1234
+
+dbConfig: 
+  host: json-storage
+  type: jdbc:postgresql
+  port: 5432
+
+artifactorysecret:
+  enabled: true
