@@ -10,7 +10,7 @@ entries:
     sources:
     - https://github.com/kubernetes/helm
     urls:
-    - https://kaylaqi0929.github.io/testing/alpine-0.3.0.tgz
+    - https://kaylaqi0929.github.io/helmcharts/alpine-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
     created: "2023-02-16T19:59:39.9002117Z"
@@ -21,7 +21,7 @@ entries:
     sources:
     - https://github.com/kubernetes/helm
     urls:
-    - https://kaylaqi0929.github.io/testing/alpine-0.2.0.tgz
+    - https://kaylaqi0929.github.io/helmcharts/alpine-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     created: "2023-02-16T19:59:39.8996381Z"
@@ -32,7 +32,7 @@ entries:
     sources:
     - https://github.com/kubernetes/helm
     urls:
-    - https://kaylaqi0929.github.io/testing/alpine-0.1.0.tgz
+    - https://kaylaqi0929.github.io/helmcharts/alpine-0.1.0.tgz
     version: 0.1.0
   jsonStorage:
   - apiVersion: v2
@@ -43,7 +43,7 @@ entries:
     name: jsonStorage
     type: application
     urls:
-    - https://kaylaqi0929.github.io/testing/jsonStorage-0.1.0.tgz
+    - https://kaylaqi0929.github.io/helmcharts/jsonStorage-0.1.0.tgz
     version: 0.1.0
   mink:
   - apiVersion: v1
@@ -52,7 +52,7 @@ entries:
     digest: 28e300f4bd90e49efc8c53cb631ea25f817e1e35da4f8131298bf79a06b6ec21
     name: mink
     urls:
-    - https://kaylaqi0929.github.io/testing/mink-0.1.0.tgz
+    - https://kaylaqi0929.github.io/helmcharts/mink-0.1.0.tgz
     version: 0.1.0
   mychart:
   - apiVersion: v2
@@ -63,6 +63,6 @@ entries:
     name: mychart
     type: application
     urls:
-    - https://kaylaqi0929.github.io/testing/mychart-0.1.0.tgz
+    - https://kaylaqi0929.github.io/helmcharts/mychart-0.1.0.tgz
     version: 0.1.0
 generated: "2023-02-16T19:59:39.8984782Z"
