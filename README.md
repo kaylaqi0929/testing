@@ -11,11 +11,11 @@ create and publish docs like this:
 $ helm create mychart
 $ helm package mychart
 $ mv mychart-0.1.0.tgz docs
-$ helm repo index docs --url https://technosophos.github.com/tscharts
+$ helm repo index docs --url https://kaylaqi0929.github.io/testing
 $ git add -i
 $ git commit -av
 $ git push origin master
 ```
 
-From there, I can do a `helm repo add tscharts
-https://technosophos.github.com/tscharts`
+From there, I can do a `helm repo add testing
+https://kaylaqi0929.github.io/testing`
